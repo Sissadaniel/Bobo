@@ -186,6 +186,7 @@ em {
   -webkit-text-stroke-width: 0px;
   border-radius: 0;
   line-height: 1.4;
+  display: block;
   position: fixed;
   top: auto;
   bottom: 2em;
@@ -361,7 +362,7 @@ em {
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  display: none;
+  display: block;
   position: relative;
 }
 
@@ -413,6 +414,7 @@ em {
   border-top-style: none;
   border-bottom-style: none;
   border-bottom-width: .5em;
+  display: none;
   overflow: hidden;
 }
 
@@ -2282,7 +2284,7 @@ em {
 }
 
 .heading.hidden {
-  display: none;
+  display: block;
 }
 
 .text-block-2 {
@@ -5533,7 +5535,7 @@ em {
   justify-self: end;
 }
 
-#w-node-_781c1f96-49d3-b537-b7a0-80c6281ec9ab-7ffb27ef, #w-node-_951c210f-be4c-eef1-b419-599fed20a1bc-7ffb27ef, #w-node-_68d30a0e-4d16-f5b2-fa14-1aae4b0d44fe-7ffb27ef, #w-node-_14d990bb-0f12-666b-bb5a-8d78dc1e5882-7ffb27ef {
+#w-node-_781c1f96-49d3-b537-b7a0-80c6281ec9ab-7ffb27ef, #w-node-_951c210f-be4c-eef1-b419-599fed20a1bc-7ffb27ef, #w-node-_68d30a0e-4d16-f5b2-fa14-1aae4b0d44fe-7ffb27ef {
   align-self: stretch;
 }
 
@@ -5586,7 +5588,7 @@ em {
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-fd3e3423-9e26-e43b-5d62-28c7eb8d3c0f-7ffb27ef, #w-node-_39440d9f-bac4-55d2-b171-446b42595aa5-7ffb27ef, #w-node-_1824b23f-f55e-5970-467d-4dd21b82bfa9-7ffb27ef, #w-node-e64a3799-c9d9-b63c-b66d-e6bab491e58a-7ffb27ef {
+  #w-node-fd3e3423-9e26-e43b-5d62-28c7eb8d3c0f-7ffb27ef, #w-node-_39440d9f-bac4-55d2-b171-446b42595aa5-7ffb27ef {
     grid-area: span 1 / span 2 / span 1 / span 2;
   }
 
